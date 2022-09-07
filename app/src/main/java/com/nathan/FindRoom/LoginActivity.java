@@ -7,26 +7,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class listRoom extends AppCompatActivity {
-    Button details;
+public class LoginActivity extends AppCompatActivity {
+    Button connexion;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_room);
+        setContentView(R.layout.activity_login);
 
         takeIds();
 
-        details.setOnClickListener(new View.OnClickListener() {
+
+        connexion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(listRoom.this, DetailsSalle.class);
-
+                Intent intent = new Intent(LoginActivity.this, listRoom.class);
+                startActivity(intent);
+                finish();
             }
         });
-
     }
 
     public void takeIds(){
-        details = findViewById(R.id.details);
+        connexion = findViewById(R.id.connexion);
     }
 }
