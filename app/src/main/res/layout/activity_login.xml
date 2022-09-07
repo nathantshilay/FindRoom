@@ -66,6 +66,8 @@
         android:layout_marginTop="12dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center"
         >
         <Button
             android:id="@+id/connexion"
@@ -78,8 +80,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="mot de passe oublier"
-            android:layout_marginStart="20dp"
             android:textColor="@color/base"
+            android:layout_marginTop="10dp"
             />
     </LinearLayout>
     <TextView

@@ -6,27 +6,30 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class listRoom extends AppCompatActivity {
-    Button details;
+    Button detail_de_la_salle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_room);
 
-        takeIds();
-
-        details.setOnClickListener(new View.OnClickListener() {
+        detail_de_la_salle = (Button) findViewById(R.id.detailsalle);
+        detail_de_la_salle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(listRoom.this, DetailsSalle.class);
+                Toast.makeText(listRoom.this,"Bonjour le monde", Toast.LENGTH_LONG).show();
 
+                Intent intent1 =  new Intent(listRoom.this, Details.class);
+                startActivity(intent1);
             }
         });
-
     }
 
-    public void takeIds(){
-        details = findViewById(R.id.details);
+    private void takeIds() {
+        detail_de_la_salle = (Button) findViewById(R.id.detailsalle);
     }
+
+
 }

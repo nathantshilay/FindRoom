@@ -29,6 +29,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void takeIds(){
-        connexion = findViewById(R.id.connexion);
+        connexion  = (Button) findViewById(R.id.connexion);
     }
 }

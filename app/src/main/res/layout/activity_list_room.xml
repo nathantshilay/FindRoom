@@ -12,7 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@color/base"
-        />
+        >
+
+
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,14 +24,17 @@
         >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
         android:orientation="vertical"
+
         >
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:padding="5dp">
+            android:padding="5dp"
+            app:cardElevation="50dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -39,7 +45,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/p1" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -70,16 +76,16 @@
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        >
 
                         <Button
-                            android:id="@+id/details"
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:backgroundTint="@color/base"
                             android:text="Details"
                             android:textAllCaps="false"
-
+                            android:layout_gravity="end"
                             />
 
                     </androidx.cardview.widget.CardView>
@@ -93,7 +99,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:padding="5dp">
+        android:padding="5dp"
+        app:cardElevation="50dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -104,7 +111,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/image" />
+                android:src="@drawable/p2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -138,11 +145,13 @@
                     android:layout_height="match_parent">
 
                     <Button
+                        android:id="@+id/detailsalle"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
                         android:backgroundTint="@color/base"
                         android:text="Details"
                         android:textAllCaps="false"
+                        android:layout_gravity="end"
 
                         />
 
@@ -157,7 +166,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:padding="5dp">
+            android:padding="5dp"
+            app:cardElevation="50dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -168,7 +179,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/p3" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -207,6 +218,7 @@
                             android:backgroundTint="@color/base"
                             android:text="Details"
                             android:textAllCaps="false"
+                            android:layout_gravity="end"
 
                             />
 
@@ -221,7 +233,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:padding="5dp">
+            android:padding="5dp"
+            app:cardElevation="50dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -232,7 +246,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/p4" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -271,6 +285,7 @@
                             android:backgroundTint="@color/base"
                             android:text="Details"
                             android:textAllCaps="false"
+                            android:layout_gravity="end"
 
                             />
 
