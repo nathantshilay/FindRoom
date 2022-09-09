@@ -6,14 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".listRoom"
     >
+
     <LinearLayout
         android:id="@+id/header"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:background="@color/base"
+        android:orientation="horizontal"
         >
 
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:queryHint="rechercher"
+            android:background="@drawable/bg_recherche"
+            />
 
     </LinearLayout>
 
@@ -80,6 +88,7 @@
                         >
 
                         <Button
+                            android:id="@+id/button1"
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:backgroundTint="@color/base"
@@ -213,6 +222,7 @@
                         android:layout_height="match_parent">
 
                         <Button
+                            android:id="@+id/button2"
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:backgroundTint="@color/base"
@@ -280,6 +290,7 @@
                         android:layout_height="match_parent">
 
                         <Button
+                            android:id="@+id/button3"
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:backgroundTint="@color/base"

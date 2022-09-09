@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/drawable/bg_recherche.xml" value="0.219" />
         <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/drawable/custom_button.xml" value="0.241" />
         <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/drawable/custon_input.xml" value="0.118" />
         <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/drawable/lock_non_focus.xml" value="0.118" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/layout/activity_list_room.xml" value="0.19038984587488667" />
         <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/layout/activity_login.xml" value="0.152" />
         <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/C-ROOT/AndroidStudioProjects/ProjectT/app/src/main/res/menu/menu.xml" value="0.1371640407784986" />
       </map>
     </option>
   </component>
